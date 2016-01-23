@@ -18,8 +18,8 @@ jar {
 }
 
 war{
- archiveName = 'ROOT.war'
- destinationDir = file('webapps')
+    archiveName = 'ROOT.war'
+    destinationDir = file('webapps')
 }
 
 repositories {
@@ -30,7 +30,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(dir: 'lib', include: ['*.jar'])
     compile("org.springframework.boot:spring-boot-starter-web")
     compile 'org.hibernate:hibernate-core:4.3.8.Final'  // when hibernate-core is added, do not add 'hibernate' aggregator. This will clash
     compile 'org.hibernate:hibernate-entitymanager:4.3.8.Final'
@@ -48,4 +48,3 @@ dependencies {
 task wrapper(type: Wrapper) {
     gradleVersion = '2.3'
 }
-jettyRunWar.contextPath = '' 
