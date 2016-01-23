@@ -1,0 +1,45 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.7.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+
+jar {
+    baseName = 'gs-rest-service'
+    version =  '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile 'org.hibernate:hibernate-core:4.3.8.Final'  // when hibernate-core is added, do not add 'hibernate' aggregator. This will clash
+    compile 'org.hibernate:hibernate-entitymanager:4.3.8.Final'
+    compile 'org.springframework:spring-orm:4.1.6.RELEASE'
+    compile 'org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final'  // clash with javax-persistance
+    compile 'javax.transaction:jta:1.1'
+    compile 'mysql:mysql-connector-java:5.1.13'
+    compile 'commons-dbcp:commons-dbcp:1.4' //version 1.4 only required ! when @lob is used, this is required.
+    compile 'org.springframework:spring-context-support'
+    compile 'javax.mail:mail:1.4.1'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'org.json:json:20141113'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}

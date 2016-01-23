@@ -1,0 +1,966 @@
+{
+    "types": [
+        {
+            "id": "home_services",
+            "name": "Home Services",
+            "subtypes": [
+                {
+                    "id": "appliance_repair",
+                    "name": "Appliances Repair"
+                },
+                {
+                    "id": "carpenter",
+                    "name": "Carpenter"
+                },
+                {
+                    "id": "electrician",
+                    "name": "Electrician"
+                },
+                {
+                    "id": "home_cleaning",
+                    "name": "Home Cleaning"
+                },
+                {
+                    "id": "laundry",
+                    "name": "Laundry "
+                },
+                {
+                    "id": "painting",
+                    "name": "Painting "
+                },
+                {
+                    "id": "plumber",
+                    "name": "Plumber"
+                },
+                {
+                    "id": "puja",
+                    "name": "Puja (Pandits)"
+                }
+            ]
+        },
+        {
+            "id": "accounting",
+            "name": "Accounting",
+            "subtypes": [
+                {
+                    "id": "accounting_manager",
+                    "name": "Accounting Manager"
+                },
+                {
+                    "id": "accounting_salary",
+                    "name": "Accounting Salary"
+                },
+                {
+                    "id": "accounting_secretary",
+                    "name": "Accounting Secretary"
+                }
+            ]
+        },
+        {
+            "id": "administrative",
+            "name": "Administrative",
+            "subtypes": [
+                {
+                    "id": "business_assistant",
+                    "name": "Business Assistant"
+                },
+                {
+                    "id": "customer_service",
+                    "name": "Customer Service"
+                },
+                {
+                    "id": "data_entry",
+                    "name": "Data Entry"
+                },
+                {
+                    "id": "management",
+                    "name": "Management"
+                },
+                {
+                    "id": "adm_marketing",
+                    "name": "Marketing"
+                },
+                {
+                    "id": "personal_assistant",
+                    "name": "Personal assistant"
+                },
+                {
+                    "id": "secretary",
+                    "name": "Secretary"
+                }
+            ]
+        },
+        {
+            "id": "alternative_therapeutics",
+            "name": "Alternative Therapeutics",
+            "subtypes": [
+                {
+                    "id": "massage",
+                    "name": "Massage"
+                },
+                {
+                    "id": "meditation_trainer",
+                    "name": "Meditation Trainer"
+                },
+                {
+                    "id": "other_alternative_therapeutics",
+                    "name": "Other Therapeutics"
+                },
+                {
+                    "id": "spa_therapy",
+                    "name": "Spa Therapy"
+                },
+                {
+                    "id": "yoga",
+                    "name": "Yoga"
+                }
+            ]
+        },
+        {
+            "id": "animals",
+            "name": "Animals",
+            "subtypes": [
+                {
+                    "id": "dog_walking",
+                    "name": "Dog walking"
+                },
+                {
+                    "id": "training",
+                    "name": "Training"
+                },
+                {
+                    "id": "veterinarian",
+                    "name": "Veterinarian"
+                }
+            ]
+        },
+        {
+            "id": "art",
+            "name": "Art",
+            "subtypes": [
+                {
+                    "id": "jeweler",
+                    "name": "Jeweler"
+                },
+                {
+                    "id": "painter",
+                    "name": "Painter"
+                },
+                {
+                    "id": "sculptor",
+                    "name": "Sculptor"
+                }
+            ]
+        },
+        {
+            "id": "banking_and_finance",
+            "name": "Banking and Finance",
+            "subtypes": [
+                {
+                    "id": "banker",
+                    "name": "Banker"
+                },
+                {
+                    "id": "economist",
+                    "name": "Economist"
+                },
+                {
+                    "id": "financial_adviser",
+                    "name": "Financial adviser"
+                },
+                {
+                    "id": "financial_analyst",
+                    "name": "Financial analyst"
+                },
+                {
+                    "id": "financial_manager",
+                    "name": "Financial manager"
+                },
+                {
+                    "id": "investment_analyst",
+                    "name": "Investment analyst"
+                }
+            ]
+        },
+        {
+            "id": "cleaning",
+            "name": "Cleaning",
+            "subtypes": [
+                {
+                    "id": "general_cleaner",
+                    "name": "General Cleaner"
+                },
+                {
+                    "id": "hotel_cleaner",
+                    "name": "Hotel Cleaner"
+                },
+                {
+                    "id": "office_cleaner",
+                    "name": "Office cleaner"
+                },
+                {
+                    "id": "house_cleaning",
+                    "name": "House Cleaing (Made)"
+                },
+                {
+                    "id": "car_cleaning",
+                    "name": "Car Cleaning"
+                },
+                {
+                    "id": "restaurant_cleaner",
+                    "name": "Restaurant Cleaner"
+                },
+                {
+                    "id": "construction_building_cleaner",
+                    "name": "Construction and Building Cleaner"
+                }
+            ]
+        },
+        {
+            "id": "architect",
+            "name": "Architect",
+            "subtypes": [
+                {
+                    "id": "civil_engineer",
+                    "name": "Civil Engineer"
+                },
+                {
+                    "id": "construction_manager",
+                    "name": "Construction Manager"
+                },
+                {
+                    "id": "electrician_architect",
+                    "name": "Electrician"
+                },
+                {
+                    "id": "garden_architecture",
+                    "name": "Garden Architecture"
+                },
+                {
+                    "id": "gardening",
+                    "name": "Gardening"
+                },
+                {
+                    "id": "handyman",
+                    "name": "Handyman"
+                },
+                {
+                    "id": "installation",
+                    "name": "Installation"
+                },
+                {
+                    "id": "interior_decorator",
+                    "name": "Interior decorator"
+                },
+                {
+                    "id": "property_trader",
+                    "name": "Property trader"
+                }
+            ]
+        },
+        {
+            "id": "driving_transport_logistics",
+            "name": "Driving, Transport, Logistics",
+            "subtypes": [
+                {
+                    "id": "automotive",
+                    "name": "Automotive"
+                },
+                {
+                    "id": "bus_driver",
+                    "name": "Bus driver"
+                },
+                {
+                    "id": "logist",
+                    "name": "Logist"
+                },
+                {
+                    "id": "car_driver",
+                    "name": "Car Driver"
+                }
+            ]
+        },
+        {
+            "id": "education_training",
+            "name": "Education and Training",
+            "subtypes": [
+                {
+                    "id": "school_playschool",
+                    "name": "Education, Schools, Playschools"
+                },
+                {
+                    "id": "kindergarten_teacher",
+                    "name": "Kindergarten Teacher"
+                },
+                {
+                    "id": "lecturer",
+                    "name": "Lecturer"
+                },
+                {
+                    "id": "nanny",
+                    "name": "Nanny"
+                },
+                {
+                    "id": "private_tutor",
+                    "name": "Private Tutor"
+                },
+                {
+                    "id": "teacher",
+                    "name": "Teacher"
+                }
+            ]
+        },
+        {
+            "id": "engineering_electronics",
+            "name": "Engineering and Electronics",
+            "subtypes": [
+                {
+                    "id": "electronics",
+                    "name": "Electronics"
+                },
+                {
+                    "id": "electronics_engineer",
+                    "name": "Electronic Engineer"
+                },
+                {
+                    "id": "rf_engineer",
+                    "name": "RF Engineer"
+                },
+                {
+                    "id": "software_engineer",
+                    "name": "Software Engineer"
+                }
+            ]
+        },
+
+        {
+            "id": "fashion_beauty",
+            "name": "Fashion & Beauty",
+            "subtypes" : [
+                {
+                    "id": "beautician",
+                    "name": "Beautician"
+                },
+                {
+                    "id": "fashion_designer",
+                    "name": "Fashion designer"
+                },
+                {
+                    "id": "hair_design",
+                    "name": "Hair Design"
+                },
+                {
+                    "id": "model",
+                    "name": "Model"
+                },
+                {
+                    "id": "nail_building",
+                    "name": "Nail Building"
+                },
+                {
+                    "id": "styling",
+                    "name": "Styling"
+                },
+                {
+                    "id": "tailor",
+                    "name": "Tailor"
+                }
+            ]
+        },
+
+        {
+            "id": "film_tv",
+            "name": "Film and TV",
+            "subtypes": [
+                {
+                    "id": "actor",
+                    "name": "Actor"
+                },
+                {
+                    "id": "producer",
+                    "name": "Producer"
+                },
+                {
+                    "id": "video_editor",
+                    "name": "Video Editor"
+                }
+            ]
+        },
+        {
+            "id": "multimedia",
+            "name": "Graphic, Sound, Multimedia",
+            "subtypes": [
+                {
+                    "id": "animation",
+                    "name": "Animation"
+                },
+                {
+                    "id": "graphic_design",
+                    "name": "Graphic design"
+                },
+                {
+                    "id": "light_engineer",
+                    "name": "Light Engineer"
+                },
+                {
+                    "id": "photographer",
+                    "name": "Photographer"
+                },
+                {
+                    "id": "photoshop",
+                    "name": "Photoshop"
+                },
+                {
+                    "id": "sound_engineer",
+                    "name": "Sound Engineer"
+                }
+            ]
+        },
+        {
+            "id": "healthcare",
+            "name": "Healthcare",
+            "subtypes": [
+                {
+                    "id": "alternative_medicine",
+                    "name": "Alternative Medicine"
+                },
+                {
+                    "id": "arts_therapy",
+                    "name": "Arts Theraphy"
+                },
+                {
+                    "id": "chinese_medicine",
+                    "name": "Chinese Medicine"
+                },
+                {
+                    "id": "coaching_health",
+                    "name": "Coaching"
+                },
+                {
+                    "id": "criminology",
+                    "name": "Criminology"
+                },
+                {
+                    "id": "dentist",
+                    "name": "Dentist"
+                },
+                {
+                    "id": "general_doctor",
+                    "name": "General Doctor"
+                },
+                {
+                    "id": "medical_assistant",
+                    "name": "Medical assistant"
+                },
+                {
+                    "id": "music_therapy",
+                    "name": "Music Therapy"
+                },
+                {
+                    "id": "nurse",
+                    "name": "Nurse"
+                },
+                {
+                    "id": "occupational_therapy",
+                    "name": "Occupational Therapy"
+                },
+                {
+                    "id": "optometrist",
+                    "name": "Optometrist"
+                },
+                {
+                    "id": "paramedic",
+                    "name": "Paramedic"
+                },
+                {
+                    "id": "personal_care",
+                    "name": "Personal care"
+                },
+                {
+                    "id": "pharmacist",
+                    "name": "Pharmacist"
+                },
+                {
+                    "id": "psychologist",
+                    "name": "Psychologist"
+                },
+                {
+                    "id": "social_worker",
+                    "name": "Social worker"
+                }
+            ]
+        },
+        {
+            "id": "hospitality_tourism",
+            "name": "Hospitality and Tourism",
+            "subtypes": [
+                {
+                    "id": "lifeguard",
+                    "name": "Lifeguard"
+                },
+                {
+                    "id": "driving_transport_logistics",
+                    "name": "Logistics"
+                },
+                {
+                    "id": "maintenance",
+                    "name": "Maintenance"
+                },
+                {
+                    "id": "reception",
+                    "name": "Reception"
+                },
+                {
+                    "id": "reservations",
+                    "name": "Reservations"
+                },
+                {
+                    "id": "spa",
+                    "name": "Spa"
+                },
+                {
+                    "id": "tour_guide",
+                    "name": "Tour Guide"
+                }
+            ]
+        },
+        {
+            "id": "house_care",
+            "name": "House Care",
+            "subtypes": [
+                {
+                    "id": "au_pair",
+                    "name": "Au pair"
+                },
+                {
+                    "id": "babysitter",
+                    "name": "Babysitter"
+                },
+                {
+                    "id": "cleaner",
+                    "name": "Cleaner"
+                },
+                {
+                    "id": "extended_care",
+                    "name": "Extended Care"
+                },
+                {
+                    "id": "gardener",
+                    "name": "Gardener"
+                },
+                {
+                    "id": "house_keeper",
+                    "name": "House Keeper"
+                }
+            ]
+        },
+        {
+            "id": "human_resources",
+            "name": "Human Resources",
+            "subtypes": [
+                {
+                    "id": "human_res",
+                    "name": "Human Resources"
+                },
+                {
+                    "id": "org_consult",
+                    "name": "Organizational consultation"
+                }
+            ]
+        },
+        {
+            "id": "info_tech",
+            "name": "Information Technology",
+            "subtypes": [
+                {
+                    "id": "comp_repair",
+                    "name": "Computer Repairer"
+                },
+                {
+                    "id": "db_admin",
+                    "name": "DBA"
+                },
+                {
+                    "id": "e_commerce",
+                    "name": "Ecommerce"
+                },
+                {
+                    "id": "info_sec",
+                    "name": "Information Security"
+                },
+                {
+                    "id": "iphone_tech",
+                    "name": "iPhone Technician"
+                },
+                {
+                    "id": "it_prog_devel",
+                    "name": "IT - Programmer, Developer"
+                },
+                {
+                    "id": "it_proj_analyst",
+                    "name": "IT - Project, Systems Analyst"
+                },
+                {
+                    "id": "net_admin",
+                    "name": "Network Administrator"
+                },
+                {
+                    "id": "qa",
+                    "name": "QA"
+                },
+                {
+                    "id": "seo",
+                    "name": "SEO"
+                },
+                {
+                    "id": "soft_devel",
+                    "name": "Software Developer"
+                },
+                {
+                    "id": "ui_ux_eng",
+                    "name": "Ui, Ux"
+                },
+                {
+                    "id": "web_design",
+                    "name": "Web Designer"
+                },
+                {
+                    "id": "web_devel",
+                    "name": "Web Developer"
+                }
+            ]
+        },
+        {
+            "id": "insurance_pensions",
+            "name": "Insurance and Pensions",
+            "subtypes": [
+                {
+                    "id": "ch_loss_adjuster",
+                    "name": "Chartered loss adjuster"
+                },
+                {
+                    "id": "insu_acc_mgr",
+                    "name": "Insurance account manager"
+                },
+                {
+                    "id": "insu_broker",
+                    "name": "Insurance broker"
+                },
+                {
+                    "id": "pension_consultant",
+                    "name": "Pensions consultant"
+                }
+            ]
+        },
+        {
+            "id": "journalism_media",
+            "name": "Journalism, Media",
+            "subtypes": [
+                {
+                    "id": "editor",
+                    "name": "Editor"
+                },
+                {
+                    "id": "journalist",
+                    "name": "Journalist"
+                },
+                {
+                    "id": "pr_mgr",
+                    "name": "PR Manager"
+                }
+            ]
+        },
+        {
+            "id": "language",
+            "name": "Language",
+            "subtypes": [
+                {
+                    "id": "copy_editor",
+                    "name": "Copy-Editor"
+                },
+                {
+                    "id": "copywriter",
+                    "name": "Copywriter"
+                },
+                {
+                    "id": "proofreader",
+                    "name": "Proofreader"
+                },
+                {
+                    "id": "transcriber",
+                    "name": "Transcriber"
+                },
+                {
+                    "id": "translator",
+                    "name": "Translator"
+                },
+                {
+                    "id": "writer",
+                    "name": "Writer"
+                }
+            ]
+        },
+        {
+            "id": "law",
+            "name": "Law",
+            "subtypes": [
+                {
+                    "id": "lawyer",
+                    "name": "Lawyer"
+                },
+                {
+                    "id": "lawyer_sec",
+                    "name": "Lawyer Secretary"
+                },
+                {
+                    "id": "leg_translator",
+                    "name": "Legal Translator"
+                },
+                {
+                    "id": "mediation",
+                    "name": "Mediation"
+                },
+                {
+                    "id": "office_mgr",
+                    "name": "Office Manager"
+                }
+            ]
+        },
+        {
+            "id": "management",
+            "name": "Management & Executive",
+            "subtypes": [
+                {
+                    "id": "director",
+                    "name": "Director"
+                }
+            ]
+        },
+        {
+            "id": "manufactory",
+            "name": "Manufactory",
+            "subtypes": [
+                {
+                    "id": "household_appl",
+                    "name": "Household Appliances"
+                },
+                {
+                    "id": "imp_exp",
+                    "name": "Import and Export"
+                },
+                {
+                    "id": "indu_design",
+                    "name": "Industrial design"
+                },
+                {
+                    "id": "indu_eng",
+                    "name": "Industrial engineering"
+                },
+                {
+                    "id": "line_worker",
+                    "name": "Line worker"
+                },
+                {
+                    "id": "logistics_mfg",
+                    "name": "Logistics"
+                },
+                {
+                    "id": "mechanic",
+                    "name": "Mechanic"
+                },
+                {
+                    "id": "mech_engineer",
+                    "name": "Mechanical Engineer"
+                },
+                {
+                    "id": "q_control",
+                    "name": "quality control"
+                },
+                {
+                    "id": "sailor",
+                    "name": "Sailor"
+                }
+            ]
+        },
+        {
+            "id": "marketing_sales",
+            "name": "Marketing and Sales",
+            "subtypes": [
+                {
+                    "id": "buyer",
+                    "name": "Buyer"
+                },
+                {
+                    "id": "cust_support",
+                    "name": "Customer support"
+                },
+                {
+                    "id": "marketing",
+                    "name": "Marketing"
+                },
+                {
+                    "id": "sales",
+                    "name": "Sales"
+                }
+            ]
+        },
+        {
+            "id": "music",
+            "name": "Music, On Stage",
+            "subtypes": [
+                {
+                    "id": "band",
+                    "name": "Band"
+                },
+                {
+                    "id": "clown",
+                    "name": "Clown"
+                },
+                {
+                    "id": "composer",
+                    "name": "Composing"
+                },
+                {
+                    "id": "dancer",
+                    "name": "Dancer"
+                },
+                {
+                    "id": "dj",
+                    "name": "DJ"
+                },
+                {
+                    "id": "magician",
+                    "name": "Magician"
+                },
+                {
+                    "id": "musician",
+                    "name": "Musician"
+                },
+                {
+                    "id": "vocalist",
+                    "name": "Vocalist"
+                }
+            ]
+        },
+        {
+            "id": "other",
+            "name": "Other",
+            "subtypes": [
+                {
+                    "id": "bartender",
+                    "name": "bartender"
+                },
+                {
+                    "id": "chef",
+                    "name": "Chef"
+                },
+                {
+                    "id": "cook",
+                    "name": "Cook"
+                },
+                {
+                    "id": "pastry_cook",
+                    "name": "Pastry-cook"
+                },
+                {
+                    "id": "restaurant_mgr",
+                    "name": "Restaurant Manager"
+                },
+                {
+                    "id": "sous_chef",
+                    "name": "Sous-Chef"
+                },
+                {
+                    "id": "waiter",
+                    "name": "Waiter"
+                }
+            ]
+        },
+        {
+            "id": "relocation",
+            "name": "Relocation jobs",
+            "subtypes": []
+        },
+        {
+            "id": "restaurants",
+            "name": "Restaurants",
+            "subtypes": []
+        },
+        {
+            "id": "sci_tech",
+            "name": "Science and Technology",
+            "subtypes": [
+                {
+                    "id": "biotech",
+                    "name": "Biotech"
+                },
+                {
+                    "id": "sch_chem_bio",
+                    "name": "Scientific, Chemical & Biology"
+                }
+            ]
+        },
+        {
+            "id": "security",
+            "name": "Security",
+            "subtypes": [
+                {
+                    "id": "fireman",
+                    "name": "Fireman"
+                },
+                {
+                    "id": "home_guard",
+                    "name": "Home Guard"
+                },
+                {
+                    "id": "personal_guard",
+                    "name": "Personal Guard"
+                },
+                {
+                    "id": "school_guard",
+                    "name": "School Guard"
+                },
+                {
+                    "id": "sec_mgr",
+                    "name": "Security Manager"
+                }
+            ]
+        },
+        {
+            "id": "sport",
+            "name": "Sport",
+            "subtypes": [
+                {
+                    "id": "coach_sport",
+                    "name": "Coach"
+                },
+                {
+                    "id": "personal_trainer",
+                    "name": "Personal Trainer"
+                },
+                {
+                    "id": "physical_therapist",
+                    "name": "Physical Therapist"
+                }
+            ]
+        },
+        {
+            "id": "student",
+            "name": "Student",
+            "subtypes": [
+                {
+                    "id": "general_student",
+                    "name": "General"
+                },
+                {
+                    "id": "intern_student",
+                    "name": "Internship"
+                },
+                {
+                    "id": "tutor_student",
+                    "name": "Tutor"
+                }
+            ]
+        }
+    ]
+}
