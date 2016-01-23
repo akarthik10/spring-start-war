@@ -53,6 +53,9 @@ public class HibernateContextConfig {
 		String username = System.getenv("OPENSHIFT_MYSQL_DB_USERNAME");
 		String password = System.getenv("OPENSHIFT_MYSQL_DB_PASSWORD");
         String mysql_url = System.getenv("OPENSHIFT_MYSQL_DB_URL");
+        /*String mysql_url = "mysql://localhost:3306/";
+        String username = "root";
+        String password = "";*/
 
         BasicDataSource dataSource = new BasicDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
