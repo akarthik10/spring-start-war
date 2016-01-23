@@ -17,6 +17,11 @@ jar {
     version =  '0.1.0'
 }
 
+war{
+ archiveName = 'ROOT.war'
+ destinationDir = file('webapps')
+}
+
 repositories {
     mavenCentral()
 }
@@ -43,3 +48,4 @@ dependencies {
 task wrapper(type: Wrapper) {
     gradleVersion = '2.3'
 }
+jettyRunWar.contextPath = '' 
