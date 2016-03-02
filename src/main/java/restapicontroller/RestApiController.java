@@ -188,8 +188,9 @@ public class RestApiController {
     {
         Writer writer;
         try {
+            ClassLoader classLoader = getClass().getClassLoader();
             InputStream is =
-                    new FileInputStream( "./src/main/java/restapicontroller/categories.json");
+                    new FileInputStream( classLoader.getResource("/categories.json").getFile());
             writer = new StringWriter();
             char[] buffer = new char[1024];
             Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));

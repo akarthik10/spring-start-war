@@ -10,7 +10,7 @@ buildscript {
 configurations.all {
     resolutionStrategy.eachDependency { DependencyResolveDetails details ->
         if (details.requested.group == 'org.apache.tomcat.embed') {
-            details.useVersion '7.0.52'
+            details.useVersion '7.0.54'
         }
     }
 }
@@ -34,8 +34,8 @@ repositories {
     mavenCentral()
 }
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 
 dependencies {
     compile fileTree(dir: 'lib', include: ['*.jar'])
@@ -50,7 +50,7 @@ dependencies {
     compile 'org.springframework:spring-context-support'
     compile 'javax.mail:mail:1.4.1'
     compile 'com.google.code.gson:gson:2.2.4'
-    compile 'org.json:json:20141113'
+    compile 'org.json:json:20140107'
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 }
 

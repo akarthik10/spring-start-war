@@ -60,9 +60,16 @@ public class HibernateContextConfig {
         BasicDataSource dataSource = new BasicDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         String URL = "jdbc:"+ mysql_url + "seveneleven";
-        dataSource.setUrl(URL);
-        dataSource.setUsername(username);
-        dataSource.setPassword(password);
+
+        String hostx = "jdbc:mysql://" 
+              + System.getenv().get("OPENSHIFT_MYSQL_DB_HOST") 
+              + ":" 
+              + System.getenv().get("OPENSHIFT_MYSQL_DB_PORT") 
+              + "/seveneleven";
+
+        dataSource.setUrl(hostx);
+        dataSource.setUsername("akarthik10");
+        dataSource.setPassword("01041957");
         return dataSource;
     }
 
